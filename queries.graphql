@@ -1,0 +1,47 @@
+# query { 
+#   obtenerUnProduct (id: "5H61IHQQ61EBLM7XXONIEL" ) {
+#     id
+#     fechaHora
+#     nombre
+#     categoria
+#     stock
+#     descripcion
+#     precio
+#   }
+  
+#   obtenerProducts {
+#     id
+#   }
+# }
+
+
+# mutation {
+#   borrarProduct(id: "V3IJTE5N0ZUS3RW3FW79UJ") {
+#     id
+#     fechaHora
+#     nombre
+#     categoria
+#     stock
+#     descripcion
+#     precio
+#   }
+# }
+
+# mutation {
+#   agregarProduct (datos: { 
+#     nombre: "Nike",
+#     categoria: "Tenis", 
+#     descripcion: "Deporte",
+#     stock: 8,
+#     precio: 44
+#   })
+#     {
+#     id
+#     fechaHora
+#     nombre
+#     categoria
+#     stock
+#     descripcion
+#     precio
+#   }
+# }

@@ -1,0 +1,97 @@
+
+[2022-07-27T09:58:14.686] [ERROR] default - Error al loguearse: {"estado":404,"descripcion":"Document not found in undefined with that {\"email\":\"jorge@gmail.com.ar\"}"}
+[2022-07-27T09:58:14.687] [ERROR] default - CustomError {
+  estado: 401,
+  descripcion: 'Error al loguearse',
+  detalles: CustomError {
+    estado: 404,
+    descripcion: 'Document not found in undefined with that {"email":"jorge@gmail.com.ar"}',
+    detalles: undefined
+  }
+}
+[2022-07-30T18:04:08.660] [ERROR] default - Falló el envio de whatsapp del nuevo order - error:ReferenceError: err is not defined
+[2022-08-02T09:26:30.122] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Este Documento no fue encontrado en esta coleccion undefined con estos datos {"id":"Z4P4TENN1K3PTKAT"}',
+  detalles: undefined
+}
+[2022-08-02T11:15:02.949] [ERROR] default - Error al loguearse: {"estado":404,"descripcion":"Este Documento no fue encontrado en esta coleccion undefined con estos datos {\"email\":\"peter\"}"}
+[2022-08-02T11:15:02.950] [ERROR] default - CustomError {
+  estado: 401,
+  descripcion: 'Error al loguearse',
+  detalles: CustomError {
+    estado: 404,
+    descripcion: 'Este Documento no fue encontrado en esta coleccion undefined con estos datos {"email":"peter"}',
+    detalles: undefined
+  }
+}
+[2022-08-08T13:47:26.992] [ERROR] default - TypeError: products.getProducts is not a function
+    at obtenerProducts (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase44/src/controller/ProductsController.js:10:45)
+    at Layer.handle [as handle_request] (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express\lib\router\index.js:47:12)
+[2022-08-08T14:35:57.646] [ERROR] default - TypeError: res.status is not a function
+    at Object.obtenerProducts (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase44/src/controller/ProductsController.js:11:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+    at async graphqlMiddleware (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express-graphql\index.js:125:26)
+[2022-08-08T14:40:29.383] [ERROR] default - TypeError: res.status is not a function
+    at Object.obtenerProducts (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase44/src/controller/ProductsController.js:11:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+    at async graphqlMiddleware (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express-graphql\index.js:125:26)
+[2022-08-08T14:49:08.809] [ERROR] default - TypeError: res.status is not a function
+    at Object.obtenerProducts (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase44/src/controller/ProductsController.js:11:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+    at async graphqlMiddleware (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express-graphql\index.js:125:26)
+[2022-08-08T14:49:17.014] [ERROR] default - TypeError: res.status is not a function
+    at Object.obtenerProducts (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase44/src/controller/ProductsController.js:11:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+    at async graphqlMiddleware (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express-graphql\index.js:125:26)
+[2022-08-08T15:14:59.293] [ERROR] default - TypeError: products.getProducto is not a function
+    at Object.obtenerUnProduct (file:///C:/Users/u597370/Documents/Coderhouse/CursoBackEnd/desafios/clase44/src/controller/ProductosControllerGraphql.js:22:31)
+    at defaultFieldResolver (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\graphql\execution\execute.js:988:36)
+    at executeField (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\graphql\execution\execute.js:481:20)
+    at executeFields (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\graphql\execution\execute.js:413:20)
+    at executeOperation (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\graphql\execution\execute.js:344:14)
+    at execute (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\graphql\execution\execute.js:136:20)
+    at graphqlMiddleware (C:\Users\u597370\Documents\Coderhouse\CursoBackEnd\desafios\clase44\node_modules\express-graphql\index.js:125:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-08-08T15:36:58.172] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Este Documento no fue encontrado en esta coleccion undefined con estos datos {"id":"Y86EUO2HR14JZGR0WIL55O"}',
+  detalles: undefined
+}
+[2022-08-08T15:40:20.055] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Este Documento no fue encontrado en esta coleccion undefined con estos datos {"id":"Y86EUO2HR14JZGR0WIL4J9"}',
+  detalles: undefined
+}
+[2022-08-08T15:44:17.775] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Este Documento no fue encontrado en esta coleccion undefined con estos datos {"id":"AARKRW828LTWBIEFL4EFSG"}',
+  detalles: undefined
+}
+[2022-08-08T16:15:18.258] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Este Documento no fue encontrado en esta coleccion undefined con estos datos {"id":"V3IJTE5N0ZUS3RW3FW79UJ"}',
+  detalles: undefined
+}
+[2022-08-08T16:17:06.131] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Este Documento no fue encontrado en esta coleccion undefined con estos datos {"id":"AARKRW828LTWBIEFL4EFSG"}',
+  detalles: undefined
+}
+[2022-08-08T16:37:49.625] [ERROR] default - CustomError {
+  estado: 404,
+  descripcion: 'Este Documento no fue encontrado en esta coleccion undefined con estos datos {}',
+  detalles: undefined
+}
